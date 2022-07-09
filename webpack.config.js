@@ -44,7 +44,9 @@ module.exports = {
       name: "english_courses",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        './Header': './src/components/header.tsx'
+      },
       shared: {
         ...deps,
         react: {
