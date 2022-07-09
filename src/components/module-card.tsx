@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const CourseCard = () => (
+export const ModuleCard = () => (
   <div className="border-purple-600 border-2">
     <div>
       <picture>

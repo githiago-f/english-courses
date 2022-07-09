@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CourseCard } from './components/course-card';
+import { ModuleCard } from './components/module-card';
 import { Header } from './components/header';
 
 import './index.scss';
 
 const App = () => (
   <>
-    <Header/>
+    <Header title="Módulos do curso"/>
     <div className="mx-auto container grid gap-1 auto-grid">
-      <CourseCard/>
-      <CourseCard/>
-      <CourseCard/>
-      <CourseCard/>
-      <CourseCard/>
-      <CourseCard/>
+      <ModuleCard/>
+      <ModuleCard/>
+      <ModuleCard/>
+      <ModuleCard/>
+      <ModuleCard/>
+      <ModuleCard/>
     </div>
   </>
 );
